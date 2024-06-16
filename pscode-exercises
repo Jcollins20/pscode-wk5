@@ -1,0 +1,48 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+number = read input
+if number % 2 == 0
+    print "Even"
+else
+    print "Odd"
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+declare numbers[] array
+
+for each in numbers[]
+    numbers[each] = read input
+
+declare var average = 0
+for each in numbers[]
+    average += numbers[each]
+average = average / 5
+
+for each in numbers[]
+    if numbers[each] < smallest
+        smallest = numbers[each]
+    if numbers[each] > largest 
+        largest = numbers[each]
+
+print "The average of the numbers is: " + average
+print "The smallest number is: " + smallest
+print "The largest number is: " + largest
